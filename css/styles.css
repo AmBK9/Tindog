@@ -1,0 +1,191 @@
+body
+{
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+h1,h2,h3,h4,h5,h6
+{
+    font-family: "Montserrat-Bold", sans-serif;
+    font-weight: 900;
+}
+p
+{
+    color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading
+{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.section-heading
+{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid
+{
+    padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section
+{
+    background-color: #6a2c70;
+    color: #fff;
+}
+.white-section
+{
+    background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar
+{
+    margin: 0 0 4.5rem;
+    padding-left: 0;
+}
+
+.navbar-brand
+{
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: "Ubuntu", sans-serif;
+}
+.nav-item
+{
+    padding: 0 18px;
+}
+.nav-link
+{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+
+/* Download Buttons */
+
+.download
+{
+    margin: 5% 3% 5% 0;
+}
+
+/*****Title Section*****/
+
+#title .container-fluid
+{
+    padding: 3% 20% 8%;
+    text-align: left;
+    /* #ff4c68 */
+}
+
+/* Title Image */
+
+.title-image
+{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+@media (max-width: 1200px)
+{
+    #title
+    {
+        text-align: center;
+    }
+    .title-image
+    {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/*****Features Section*****/
+
+#features
+{
+    position: relative;
+    /* z-index: 1; it's not necessary since the positioned feature section is below the title img in HTML flow so it will be on top of the stack. (Refer to the pdf)*/
+}
+.feature-title
+{
+    font-size: 1.5rem;
+}
+.fcolumn
+{
+    padding: 5%;
+}
+.ficon
+{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.ficon:hover
+{
+    color: #6a2c70;
+}
+
+/*****Testimonials Section*****/
+
+#testimonials
+{
+    background-color: #ef8172;
+}
+.testimonial-text
+{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testimonial-img
+{
+    width: 10%;
+    border-radius: 100px;
+    margin: 20px;
+}
+
+/*****Press Section*****/
+
+#press
+{
+    background-color: #ef8172;
+    padding-bottom:3%;
+}
+.press-logo
+{
+    width: 15%;
+    margin: 0 20px 50px;
+}
+
+/*****Pricing Section*****/
+
+#pricing
+{
+    padding: 100px;
+}
+.price-text
+{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.pricing-col
+{
+    padding: 3% 1%;
+}
+
+ /***** Call to Action *****/
+
+ /***** Footer *****/
+
+ .social-icons
+ {
+     margin: 20px 10px;
+ }
